@@ -4,7 +4,7 @@ import axios from 'axios';
 
 const Login = ({ onLoginSuccess }) => {
   const [view, setView] = useState('login');
-  const API_URL = 'http://localhost:5000/api/auth';
+  const API_URL = 'https://igts.onrender.com/api/auth';
 
   // --- GLOBAL VALIDATION HELPERS ---
   const validateEmail = (email) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
