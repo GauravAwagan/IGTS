@@ -1,0 +1,30 @@
+# --- IGTS Monorepo Ignores ---
+
+# Ignore all dependency folders
+node_modules/
+igts-backend/node_modules/
+igts-frontend/node_modules/
+
+# Ignore ALL environment files (CRITICAL for security)
+.env
+.env.local
+**/.env
+**/*.env.local
+
+# Frontend Build Folders
+igts-frontend/dist/
+igts-frontend/dist-ssr/
+igts-frontend/build/
+
+# Logs and Debugging
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Editor and OS Files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
