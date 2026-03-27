@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://GauravAwagan.github.io/IGTS",
+  "homepage": "https://gauravawagan.github.io/igts",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
